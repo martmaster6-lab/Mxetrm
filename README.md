@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MXe.</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    body{
+      margin:0;
+      font-family:'Roboto', sans-serif;
+      background: linear-gradient(135deg,#0f172a,#1e293b);
+      color:#fff;
+      text-align:center;
+    }
+    header{
+      padding:20px;
+      font-size:32px;
+      font-weight:bold;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+      background: rgba(0,0,0,0.3);
+      backdrop-filter: blur(6px);
+    }
+    header span{color:#38bdf8;}
+
+    .container{
+      max-width:980px;
+      margin:0 auto;
+      padding:20px;
+    }
+
+    .section-title{
+      font-size:24px;
+      margin:30px 0 15px 0;
+      text-align:left;
+      color:#38bdf8;
+      border-bottom:2px solid #38bdf8;
+      padding-bottom:4px;
+    }
+
+    .video-card{
+      background: rgba(255,255,255,0.05);
+      border-radius:16px;
+      padding:16px;
+      margin-bottom:20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .video-card:hover{
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.4);
+    }
+    .video{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;margin-bottom:12px}
+    .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+    .btn{
+      display:inline-block;
+      margin:6px;
+      padding:14px 22px;
+      background: linear-gradient(90deg,#38bdf8,#06b6d4);
+      color:#0f172a;
+      text-decoration:none;
+      font-weight:600;
+      border-radius:12px;
+      border:none;
+      transition: 0.3s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .btn:hover{
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+      background: linear-gradient(90deg,#06b6d4,#38bdf8);
+      color:#fff;
+    }
+    .btn-row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-bottom:20px}
+
+    footer{
+      margin-top:40px;
+      font-size:14px;
+      color:#94a3b8;
+      padding-bottom:20px;
+      text-align:left;
+    }
+
+    /* Açıklama bölümü */
+    .description{
+      text-align:left;
+      background: rgba(255,255,255,0.05);
+      padding:20px;
+      border-radius:16px;
+      margin-top:30px;
+      line-height:1.6;
+      font-size:14px;
+      color:#f1f5f9;
+    }
+
+    @media(max-width:768px){
+      .section-title{text-align:center;}
+      .btn-row{flex-direction:column;}
+    }
+  </style>
+</head>
+<body>
+  <header>MXe <span>⚡</span></header>
+  <div class="container">
+
+    <h2 class="section-title">Videolarım</h2>
+
+    <div class="video-card">
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/PUuflCRdaXM" title="Blood Strike TC MOD V8 Kurulum" allowfullscreen></iframe>
+      </div>
+      <p>Burada Blood Strike TC MOD V8 Modu nasıl kurulur</p>
+    </div>
+
+    <div class="video-card">
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/DKFcadJPgxQ" title="Free Fire Quality" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <div class="video">
+        <iframe src="" title="Free Fire Skin Hack" allowfullscreen></iframe>
+      </div>
+      <p style="color:#94a3b8">Bu videonun bağlantısını ekleyin.</p>
+    </div>
+
+    <h2 class="section-title">Kategori Videoları</h2>
+    <div class="video-card"><div class="video"><iframe src="https://www.youtube.com/embed/GaDCtwFrav4" allowfullscreen></iframe></div></div>
+    <div class="video-card"><div class="video"><iframe src="https://www.youtube.com/embed/dsvTSiAYYHk" allowfullscreen></iframe></div></div>
+    <div class="video-card"><div class="video"><iframe src="https://www.youtube.com/embed/q-fEQPX3RX0" allowfullscreen></iframe></div></div>
+    <div class="video-card"><div class="video"><iframe src="https://www.youtube.com/embed/X7HGG9BHUPE" allowfullscreen></iframe></div></div>
+    <div class="video-card"><div class="video"><iframe src="https://www.youtube.com/embed/66j_BwHVvus" allowfullscreen></iframe></div></div>
+
+    <h2 class="section-title">İndirme Linkleri</h2>
+    <div class="btn-row">
+      <a class="btn" href="https://www.mediafire.com/file/9z43cgmu77q7pdl/Blood_Strike_V8.MXe.7z/file" target="_blank">Blood Strike TC MOD V8 • İndir</a>
+      <a class="btn" href="https://www.mediafire.com/file/ssrnc6tpl2j6q9g/base%25282%2529.apk/file" target="_blank">VPN PAYBASS • İndir</a>
+    </div>
+
+    <h2 class="section-title">Sosyal Hesaplarım</h2>
+    <div class="btn-row">
+      <a class="btn" href="https://www.tiktok.com/@m34762.43?_t=ZS-8zKwaAYT508&_r=1" target="_blank">TikTok</a>
+      <a class="btn" href="https://www.youtube.com/@mxe02" target="_blank">YouTube</a>
+      <a class="btn" href="https://t.me/+rC26Ilv1fdRiMjhk" target="_blank">Telegram</a>
+    </div>
+
+    <div class="description">
+      <p>Hızlı tempolu aksiyona her zaman hazırsanız, Blood Strike radarınızda tutmanız gereken mobil oyun. Battle Royale ve birinci şahıs nişancı karışımı olan bu oyun, her maça ciddi bir enerji katıyor. Akıcı kontroller, hızlı silah kullanımı ve tam istediğiniz gibi oynamanızı sağlayan inanılmaz derecede esnek karakter kurulumları düşünün. İster tek başınıza koşun ister ekibinizle birlikte oynayın, Blood Strike sizi doğrudan becerilerin telefon özelliklerinizden daha önemli olduğu durmaksızın süren bir çatışmanın içine atıyor.</p>
+      <p>Asıl çılgınlık, ister canavar gibi bir amiral gemisinde olun ister eski bir Android cihazda, bu oyunun ne kadar iyi çalıştığı...</p>
+      <p>...Silahlarınızı kuşanın, oyuna dalın ve kaos başlasın — çünkü arena her zaman dolu.</p>
+      <hr>
+      <p>SSS Kan Saldırısı • Reklamcılık • Şimdi İndirin • Daha İlginç Oyunlar Keşfedin</p>
+      <p>v1183 • 167.59 Mb • Güncellendi</p>
+      <p>Kader Yükseliyor v1.0.55905541 • 2,84 GB • Güncellendi</p>
+      <p>ACECRAFTMod v1.3.73.3113 • 226160718 • Güncellendi</p>
+      <p>EN KARANLIK GÜNLER v0.22.2 • 2,76 GB • Güncellendi</p>
+      <p>Solo Leveling Arise v1.2.96 • 274.41 Mb • Güncellendi</p>
+      <p>FRAG Pro Nişancı v4.12.1 • 199,95 Mb • Güncellendi</p>
+      <p>Flex City: Çevrimiçi RP Araba Oyunu v1.5.4 • 985,92 Mb • Güncellendi</p>
+      <p>Süper Sus v1.68.29.033 • 298,99 Mb • Güncellendi</p>
+      <p>FPV Savaş Kamikaze İHA'sı v2.9.5 • 150.20 Mb • Güncellendi</p>
+      <p>Taklitçilik v1.13.0 • 152.69 Mb • Güncellendi</p>
+      <p>Düşüncelerinizi Paylaş
